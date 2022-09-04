@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+</head>
+<body>
+  <main class="container">
+    <article class="presentation">
+        <div class="user">
+            <p id="sentence" class="sentence">
+                “ If you want to lay the best foundation possible I’d recommend taking this course.
+                The depth the instructors go into is incredible. I now feel so confident about
+                starting up as a professional developer.”
+            </p>
+            <div class="info">
+                <h2 id="name" class="name">John Tarkpor</h2>
+                <p id="position" class="position">Junior Front-end Developer</p>
+            </div>
+        </div>
+        <div class="img-avatar">
+            <img src="./images/image-john.jpg" id="avatar" class="avatar" alt="avatar">
+            <div class="change">
+                <button id="prev"><img src="/images/icon-prev.svg" class="prev" alt="prev"></button>
+                <button id="next"><img src="/images/icon-next.svg" class="next" alt="next"></button>
+            </div>
+            <div class="pattern">
+                <img src="/images/pattern-bg.svg" class="bg" alt="bg">
+            </div>
+        </div>
+    </article>
+    <div class="curve"></div>
+  </main>
+ 
+  <script src="slider.js"></script>
+</body>
+</html>
